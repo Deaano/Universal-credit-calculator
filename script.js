@@ -48,14 +48,15 @@ function getUc(){
         } else if (allowedToEarn.value <= 0 || entitled.value <= 0 || perPound.value <= 0 || wageOne.value <= 0 || wageTwo.value <= 0){
     
         netPay.innerText = 'Please Fill In All Required Fields.'
+        
     }
         // return original values
 
-        wageOne.value='   ';
-        wageTwo.value='   ';
-        entitled.value='   ';
-        perPound.value='   ';
-        allowedToEarn.value='   ';
+        wageOne.value='';
+        wageTwo.value='';
+        entitled.value='';
+        perPound.value='';
+        allowedToEarn.value='';
 
 }
 

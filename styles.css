@@ -49,14 +49,15 @@
      color: black;
      border: none;
      border: 5px solid black;
-     width: 20%;
+     width: fit-content;
      letter-spacing: 2;
-     height: 5vh;
+     height: fit-content;
      border-radius: 20px;
      letter-spacing: 1.2;
      font-weight: bold;
      cursor: pointer;
      margin: 30px 0;
+     padding: 8px 40px;
  }
 
  .submit:hover{
@@ -85,5 +86,6 @@
      .submit{
          margin: 20px 0;
          width: 40%;
+         padding: 3px;
      }
  }
