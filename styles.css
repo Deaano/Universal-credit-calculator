@@ -1,0 +1,64 @@
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     align-content: center;
+     background-color: rgb(231, 230, 227);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .container{
+     padding: 25px;
+     width: 80vw;
+     height: 80vh;
+     margin: 10vh 10vw;
+     border-radius: 14px;
+     background-color: cadetblue;
+     border: 3px solid black;
+     box-shadow: 2px 2px 9px black;
+ }
+
+ .heading{
+     font-size: 3rem;
+ }
+
+ label{
+     font-size: 1.2rem;
+     font-weight: bold;
+     
+ }
+
+ .wage-box{
+     margin: 8px 3px 30px;
+     width: 80%;
+     height: 5vh;
+     border-radius: 20px;
+     font-size: 1.3rem;
+     border: 3px solid black;
+     box-shadow: 2px 2px 9px black;
+
+ }
+
+ .submit{
+     font-size: 1.1rem;
+     background-color: transparent;
+     color: black;
+     border: none;
+     border: 5px solid black;
+     width: 40%;
+     letter-spacing: 2;
+     height: 5vh;
+     border-radius: 20px;
+     letter-spacing: 1.2;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .submit:hover{
+     color: white;
+     background-color: black;
+     border: 5px solid white;
+     border-radius: 20px;
+
+ }
