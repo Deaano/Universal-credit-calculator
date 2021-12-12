@@ -26,12 +26,13 @@
  label{
      font-size: 1.2rem;
      font-weight: bold;
+     margin-left: -100px;
      
  }
 
  .wage-box{
      margin: 8px 3px 30px;
-     width: 80%;
+     width: 40%;
      height: 5vh;
      border-radius: 20px;
      font-size: 1.3rem;
@@ -46,13 +47,14 @@
      color: black;
      border: none;
      border: 5px solid black;
-     width: 40%;
+     width: 20%;
      letter-spacing: 2;
      height: 5vh;
      border-radius: 20px;
      letter-spacing: 1.2;
      font-weight: bold;
      cursor: pointer;
+     margin: 30px 0;
  }
 
  .submit:hover{
@@ -68,5 +70,18 @@
      .container{
          height: fit-content;
          padding-bottom: 30px;
+     }
+
+     .wage-box{
+        width: 80%;
+     }
+
+     label{
+         margin-left: 0;
+     }
+
+     .submit{
+         margin: 20px 0;
+         width: 40%;
      }
  }

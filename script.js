@@ -6,8 +6,16 @@ const button = document.getElementById("submit");
 const EntitledTo = 1721;
 const perPound = 0.63 
 let allowedToEarn = 293;
-
+// on button press to get results 
 button.addEventListener('click', getUc)
+
+// press enter to get results
+document.addEventListener('keypress', function (e) {
+    if(e.key === 'Enter'){
+        getUc();
+    }
+})
+
 
 function getUc(){
 
