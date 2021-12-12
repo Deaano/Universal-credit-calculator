@@ -10,16 +10,29 @@
 <body>
 
     <div class="container">
-       <h1 class="heading">Universal Credit <br> Calculator</h1>
-       
-        <label>Wage 1: £
-          <input value="    " class="wage-box"  placeholder="   Enter Wage 1 Here" id="wage1">
+       <h1 class="heading">Universal Credit Calculator</h1>
+
+       <label>Entitled To: £ <br>
+        <input value="    " class="wage-box"   id="entitledTo">
+      </label>
+      <br>
+      <label>Allowed To Earn Before Deductions: £ <br>
+          <input value="    " class="wage-box"   id="A-T-E">
+      </label>
+         <br>
+        <label>Deductions Per Pound: £<br>
+          <input value="    " class="wage-box"   id="D-P-P">
         </label>
         <br>
-        <label>Wage 2: £
-            <input value="    " class="wage-box"  placeholder="   Enter Wage 2 Here" id="wage2">
+        <label>Last Months Wage 1: £ <br>
+            <input value="    " class="wage-box"   id="wage1">
         </label>
-           <br>
+        <br>
+        <label>Last Months Wage 2 (Optional): £ <br>
+            <input value="    " class="wage-box"  id="wage2">
+        </label>
+           
+        <br>
         
         <button type="submit" id="submit" class="submit">Submit</button>
        </form>

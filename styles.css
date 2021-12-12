@@ -9,10 +9,12 @@
  }
 
  .container{
+     
      padding: 25px;
      width: 80vw;
-     height: 80vh;
-     margin: 10vh 10vw;
+     height: fit-content;
+     padding-bottom: 30px;
+     margin: 2vh 10vw 0;
      border-radius: 14px;
      background-color: cadetblue;
      border: 3px solid black;
@@ -26,7 +28,7 @@
  label{
      font-size: 1.2rem;
      font-weight: bold;
-     margin-left: -100px;
+     
      
  }
 
@@ -67,11 +69,11 @@
 
 
  @media (max-width:800px){
-     .container{
-         height: fit-content;
-         padding-bottom: 30px;
-     }
 
+        .heading{
+            font-size: 2rem;
+        }
+    
      .wage-box{
         width: 80%;
      }
